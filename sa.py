@@ -1,6 +1,9 @@
 import nltk
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import pandas as pd
+
+
+
 df = pd.read_csv('Reviews.csv')
 sa_compound_score = []
 for i in range(0,len(df)):
